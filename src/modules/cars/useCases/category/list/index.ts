@@ -1,6 +1,5 @@
-
+import { ListCategoryController } from "../../../../../controller/module/cars/category"
 import { CategoryRepository } from "../../../repositories/categories/CategoryRepository"
-import { ListCategoryController } from "./ListCategoryController"
 import { ListCategoryUseCase } from "./ListCategoryUseCase"
 
 const categoriesRepository = CategoryRepository.getInstance()

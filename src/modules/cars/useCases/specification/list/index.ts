@@ -1,7 +1,5 @@
-
-
+import { ListSpecificationController } from "../../../../../controller/module/cars/specification"
 import { SpecificationRepository } from "../../../repositories/specifications/SpecificationRepository"
-import { ListSpecificationController } from "./ListCategoryController"
 import { ListSpecificationUseCase } from "./ListCategoryUseCase"
 
 const specificationRepository = SpecificationRepository.getInstance()
